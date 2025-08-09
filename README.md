@@ -48,7 +48,7 @@ CareConnect simplifies the process of booking doctor appointments with a clean, 
 1. **Clone the repository:**
 
     ```
-    git clone https://github.com/your-username/CareConnect.git
+    git clone https://github.com/aniimaurya/CareConnect.git
     ```
 
 2. **Set up local server:**
@@ -86,32 +86,29 @@ CareConnect simplifies the process of booking doctor appointments with a clean, 
 
 ## Screenshots
 
-*Add relevant screenshots like these for authenticity:*
+User Login Page:   
 
-**User Login Page**  
 ![Login](/Screenshots/login_page.png)
 
-**Dynamic Search Bar**  
+Dynamic Search Bar: 
+
 ![Search Bar](/Screenshots/doctorpage.png)
 
-**Doctor's Profile**  
+Doctor's Profile:
+
 ![Doctor's Profile](/Screenshots/doctors_profile.png)
 
-**Appointment Booking**  
+Appointment Booking:
+
 ![Appointment Booking](/Screenshots/appointment_booking.png)
 
-**Appointment Receipt**  
+Appointment Receipt:
+
 ![Appointment Receipt](/Screenshots/receipt.png)
 ---
 
 ## Contributing
 
 Pull requests and suggestions are welcome! Please open an issue first for significant changes.
-
----
-
-## License
-
-MIT
 
 ---
