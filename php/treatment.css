@@ -1,0 +1,375 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+   .main-container {
+    position: relative;
+    width: 1280px;
+    height: 1984px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 1313.778px;
+    height: 128.889px;
+    margin: -37.333px 0 0 -12.444px;
+    background: #d7e9f4;
+    z-index: 2;
+  }
+  .group {
+    position: absolute;
+    width: 65.287px;
+    height: 65.287px;
+    top: 49.778px;
+    left: 113.778px;
+    background: url(./doctor/images/6bb75e01-bfb9-4067-b1f1-8d016979d440.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 6;
+  }
+  .logo {
+    position: absolute;
+    width: 252px;
+    height: 56px;
+    top: 54.204px;
+    left: 181.278px;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 44.262271881103516px;
+    font-weight: 700;
+    line-height: 55.77px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .careconnec {
+    position: relative;
+    color: #0e2449;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 44.262271881103516px;
+    font-weight: 700;
+    line-height: 55.77px;
+    text-align: left;
+  }
+  .t {
+    position: relative;
+    color: #e2474b;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 44.262271881103516px;
+    font-weight: 700;
+    line-height: 55.77px;
+    text-align: left;
+  }
+  .empty-space {
+    position: relative;
+    color: #0e2449;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 44.262271881103516px;
+    font-weight: 700;
+    line-height: 55.77px;
+    text-align: left;
+  }
+  .treatment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 71.111px;
+    right: 456px;
+    color: #0e2549;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 17.77777862548828px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-transform: capitalize;
+    white-space: nowrap;
+    z-index: 113;
+  }
+  .login-sign-up {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 71.111px;
+    right: 105px;
+    color: #0e2549;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 17.77777862548828px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-transform: capitalize;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .providers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 71.111px;
+    right: 287px;
+    color: #0e2549;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 17.77777862548828px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-transform: capitalize;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .about-us {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 22px;
+    top: 71.111px;
+    right: 622.778px;
+    color: #0e2549;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 17.77777862548828px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    text-transform: capitalize;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .healthcare-providers {
+    display: block;
+    position: relative;
+    height: 54px;
+    margin: 72.889px 0 0 384.889px;
+    color: #0e2449;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 42.66666793823242px;
+    font-weight: 500;
+    line-height: 53.76px;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  
+
+  /*treament style*/
+
+
+  .treatment-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust spacing between items */
+  }
+  
+  .treatment-item {
+    text-align: center;
+  }
+  
+  .treatment-item img {
+    width: 350px; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    box-sizing: border-box;
+    border:0
+    }
+    
+    .input,select,
+    textarea,
+    button {
+      outline: 0;
+    }
+
+
+
+
+  .rectangle-3c {
+    position: relative;
+    width: 1280px;
+    height: 322.667px;
+    margin: 72.889px 0 0 0;
+    background: #2e6b99;
+    z-index: 100;
+    overflow: visible auto;
+  }
+  .flex-row-ed {
+    position: relative;
+    width: 872.111px;
+    height: 65.287px;
+    margin: 46.222px 0 0 112px;
+    z-index: 106;
+  }
+  .group-3d {
+    position: absolute;
+    width: 65.287px;
+    height: 65.287px;
+    top: 0;
+    left: 0;
+    background: url(./doctor/images/444fa4e2-c5b1-4289-8498-3407c581bf46.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 105;
+  }
+  .logo-3e {
+    position: absolute;
+    width: 252px;
+    height: 56px;
+    top: 4.426px;
+    left: 67.5px;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 44.262271881103516px;
+    font-weight: 700;
+    line-height: 55.77px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 106;
+  }
+  .careconnect {
+    position: relative;
+    color: #ffffff;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 44.262271881103516px;
+    font-weight: 700;
+    line-height: 55.77px;
+    text-align: left;
+  }
+  .t-3f {
+    position: relative;
+    color: #e2474b;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 44.262271881103516px;
+    font-weight: 700;
+    line-height: 55.77px;
+    text-align: left;
+  }
+  .empty-space-40 {
+    position: relative;
+    color: #ffffff;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 44.262271881103516px;
+    font-weight: 700;
+    line-height: 55.77px;
+    text-align: left;
+  }
+  .follow-us {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 33px;
+    top: 17.778px;
+    left: calc(50% - -315.06px);
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 28.44444465637207px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 101;
+  }
+  .flex-row-ab {
+    position: relative;
+    width: 984.382px;
+    height: 51.938px;
+    margin: 0.49px 0 0 179.556px;
+    z-index: 111;
+  }
+  .healthcare-fingertips {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 23px;
+    top: 0;
+    left: calc(50% - 492.19px);
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 19.55555534362793px;
+    font-weight: 500;
+    line-height: 22.917px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 102;
+  }
+  .group-41 {
+    position: absolute;
+    width: 4.28%;
+    height: 81.17%;
+    top: 18.83%;
+    left: 69.71%;
+    background: url(./doctor/images/48f22d0e-f730-49ab-971d-467f2d470941.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 111;
+  }
+  .group-42 {
+    position: absolute;
+    width: 4.28%;
+    height: 81.17%;
+    top: 18.83%;
+    left: 78.38%;
+    background: url(./doctor/images/9e8f229d-82da-46ed-baf5-587de115dc87.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 110;
+  }
+  .group-43 {
+    position: absolute;
+    width: 4.28%;
+    height: 81.17%;
+    top: 18.83%;
+    left: 87.05%;
+    background: url(./doctor/images/1fd0e42f-8343-4fff-99ca-f90fb904f5ae.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 109;
+  }
+  .group-44 {
+    position: absolute;
+    width: 4.28%;
+    height: 81.17%;
+    top: 18.83%;
+    left: 95.72%;
+    background: url(./doctor/images/6205f512-c1de-4058-a081-0fcc47806b7f.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 108;
+  }
+  .copyright {
+    display: block;
+    position: relative;
+    height: 25px;
+    margin: 84.062px 0 0 426.667px;
+    color: #ffffff;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 21.33333396911621px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 107;
+  }
+  .text {
+    display: block;
+    position: relative;
+    height: 80px;
+    margin: 46.222px 0 0 847.111px;
+    color: #fffdfd;
+    font-family: Outfit, var(--default-font-family);
+    font-size: 63.11111068725586px;
+    font-weight: 700;
+    line-height: 79.52px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 99;
+  }
